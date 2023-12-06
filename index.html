@@ -12,8 +12,8 @@
 
         <div class="navbar Center-container">
             <h1>DevDetective</h1>
-            <div>
-                <p theme-desc>light</p>
+            <div class="themeSection">
+                <p theme-desc>Light</p>
                 <i class="fa-solid fa-sun" theme-icon></i>
                 <!--<i class="fa-solid fa-moon"></i>-->
             </div>
@@ -24,7 +24,7 @@
 
             <form action="submit" SearchForm>
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" Search-input>
+                <input type="text" placeholder="Search GitHub ID.." Search-input>
                 <!--<i class="fa-solid fa-xmark" Xmark-icon></i>-->
                 <button type="submit">Search</button>
             </form>
@@ -33,71 +33,73 @@
         </div>
 
         <div class="container Center-container">
+             
+            <img src="" alt="" Profile-icon>
 
-            <div class="top-container">
+            <div class="side-container">
 
-                <div>
-                    <img src="" alt="" Profile-icon>
+                <div class="top-container">
+
+                
+
+                    <div class="profile">
+                        <h3 Profile-name></h3>
+                        <a href="" Profile-url></a>
+                        <p Profile-bio></p>
+                    </div>
+    
+                    <div>
+                        <p Profile-joined-date></p>
+                    </div>
+    
                 </div>
-
-                <div>
-                    <h3 Profile-name></h3>
-                    <a href="" Profile-url></a>
-                    <p Profile-bio></p>
+    
+                <div class="mid-container">
+    
+                    <div class="info">
+                        <h4>Repos</h4>
+                        <p Repo-no></p>
+                    </div>
+    
+                    <div class="info">
+                        <h4>Followers</h4>
+                        <p Followers-no></p>
+                    </div>
+    
+                    <div class="info">
+                        <h4>Following</h4>
+                        <p Following-no></p>
+                    </div>
+    
                 </div>
-
-                <div>
-                    <p Profile-joined-date></p>
+    
+                <div class="bottom-container">
+                    <div class="footer">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p Location></p>
+                    </div>
+    
+                    <div class="footer">
+                        <i class="fa-solid fa-link"></i>
+                        <a href="" biolink></a>
+                    </div>
+    
+                    <div class="footer">
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="" Twitterlink></a>
+                    </div>
+    
+                    <div class="footer">
+                        <i class="fa-solid fa-building"></i>
+                        <p Office></p>
+                    </div>
+    
                 </div>
-
-            </div>
-
-            <div class="mid-container">
-
-                <div>
-                    <h4>Repos</h4>
-                    <p Repo-no></p>
-                </div>
-
-                <div>
-                    <h4>Followers</h4>
-                    <p Followers-no></p>
-                </div>
-
-                <div>
-                    <h4>Following</h4>
-                    <p Following-no></p>
-                </div>
-
-            </div>
-
-            <div class="bottom-container">
-                <div>
-                    <i class="fa-solid fa-location-dot"></i>
-                    <p Location></p>
-                </div>
-
-                <div>
-                    <i class="fa-solid fa-link"></i>
-                    <a href="" biolink></a>
-                </div>
-
-                <div>
-                    <i class="fa-brands fa-twitter"></i>
-                    <a href="" Twitterlink></a>
-                </div>
-
-                <div>
-                    <i class="fa-solid fa-building"></i>
-                    <p Office></p>
-                </div>
-
-            </div>
-            
+            </div>            
         </div>
 
     </div>
-
+    <script src="https://kit.fontawesome.com/dedcff7b73.js" crossorigin="anonymous"></script>
     <script src="./index.js"></script>
 </body>
 </html>
