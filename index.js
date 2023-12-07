@@ -115,6 +115,7 @@ function officeInfo(data){
         Office.innerText = "No company";        
     }
 }
+
 function Biolink(data){
 
     if(data?.blog){
